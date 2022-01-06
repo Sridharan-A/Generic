@@ -17,11 +17,13 @@ public class GenericDemo <T>{
     public static void main(String[] args) {
         GenericDemo<Integer> gi=new GenericDemo<>(4);
         gi.showType();
-        System.out.println(gi.getOb());
+        int v=gi.getOb();
+        System.out.println(v);
 
         GenericDemo<String> gs=new GenericDemo<>("fgvdfv");
         gs.showType();
-        System.out.println(gs.getOb());
+        String a=gs.getOb();
+        System.out.println(a);
     }
 
 }
